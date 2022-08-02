@@ -1,0 +1,21 @@
+#pragma once
+
+
+enum vga_color_e {
+	VGA_BLACK	= 0x0,
+	VGA_BLUE	= 0x1,
+	VGA_GREEN	= 0x2,
+	VGA_CYAN	= 0x3,
+	VGA_RED		= 0x4,
+	VGA_MAGENTA	= 0x5,
+	VGA_BROWN	= 0x6,
+	VGA_LIGHTGRAY	= 0x7,
+	VGA_DARKGRAY	= 0x8,
+	VGA_LIGHTBLUE	= 0x9,
+	VGA_LIGHTGREEN	= 0xa,
+	VGA_LIGHTCYAN	= 0xb,
+	VGA_PINK	= 0xc,
+	VGA_LIGHTMAGENTA= 0xd,
+	VGA_YELLOW	= 0xe,
+	VGA_WHITE	= 0xf,
+};
